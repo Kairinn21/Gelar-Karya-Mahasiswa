@@ -1,0 +1,68 @@
+* {
+box-sizing: border-box;
+}
+body {
+font-family: Comic Sans MS;
+color: black;
+padding: 10px;
+background:linear-gradient(to right top, #55897d, #699885, #7ea78e, #95b596, #acc4a0);
+}
+.header {
+padding: 40px;
+color:#black;
+text-align: center;
+
+}
+.header h1 {
+font-size: 70px;
+
+}
+.topnav a {
+float: left;
+display: block;
+color: #F4EEB4;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.kotak {
+width: 100%;
+padding: 10px;
+border: 5px;
+border-style: dashed;
+border-color: #F4EEB4;
+border-radius: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 13px;
+font-color:#black ;
+}
+.leftcolumn { 
+float: left;
+width: 75%;
+padding-right: 20px;
+}
+.rightcolumn {
+float: right;
+width: 25%;
+padding-left: 20px;
+}
+.card {
+background-color: #F4EEB4;
+padding: 20px;
+margin-top: 20px;
+border-radius: 10px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.footer {
+padding: 20px;
+text-align: center;
+background: ;
+margin-top: 20px;
+border-radius: 20px;
+}

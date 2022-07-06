@@ -1,0 +1,61 @@
+* {
+box-sizing: border-box;
+}
+body {
+font-family: Comic Sans MS;
+padding: 10px;
+background:linear-gradient(to right top, #0f5dff, #0099ff, #00c3ff, #00e4e1, #00ffaa);
+}
+input[type=text], [type=number], 
+[type=email],[type=date],[type=file],textarea, select {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+input[type=submit],[type=reset]{
+ width: 100%;
+ background-color: #4CAF50;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+input[type=submit]:hover,[type=reset]:hover {
+ background-color: #45a049;
+}
+div {
+ border-radius: 5px;
+ background-color: #f2f2f2;
+ padding: 20px;
+ width: 50%;
+}
+.card {
+float: center;
+width: 100%;
+background-color: #30EBEE;
+padding: 30px;
+margin-top: 20px;
+}
+.kotak {
+float: center;
+width: 50%;
+padding: 10px;
+border: 5px solid gray;
+border-style: solid;
+border-color: #8DBDF7;
+border-radius: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: left ;
+font-size: 12px;
+}
+.header {
+padding: 40px;
+color:#051937;
+text-align: center;

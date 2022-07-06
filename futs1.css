@@ -1,0 +1,50 @@
+* {
+box-sizing: border-box;
+}
+body {
+font-family: Comic Sans MS;
+padding: 10px;
+background:linear-gradient(to right top, #55897d, #699885, #7ea78e, #95b596, #acc4a0);
+}
+.header {
+padding: 10px;
+color:#051937;
+text-align: center;
+}
+.topnav a {
+float: left;
+display: block;
+color: #F4EEB4;
+text-align: center;
+padding: 0px 40px;
+text-decoration: none;
+}
+.leftcolumn { 
+float: center;
+width: 100%;
+padding:10px;
+}
+.card {
+background-color: #F4EEB4;
+padding: 20px;
+margin-top: 20px;
+border-radius: 0px;
+}
+.kotak {
+width: 100%;
+padding: 50px;
+border: 5px solid gray;
+border-style: solid;
+border-color: #425454;
+border-radius: 0px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 12px;
+}
+.footer {
+padding: 20px;
+text-align: center;
+margin-top: 20px;
+border-radius: 20px;
+}
